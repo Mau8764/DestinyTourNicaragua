@@ -1,0 +1,5 @@
+c:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\CapaDatos\bin\Debug\CapaDatos.dll
+c:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\CapaDatos\bin\Debug\CapaDatos.pdb
+c:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\CapaDatos\obj\Debug\CapaDatos.csprojResolveAssemblyReference.cache
+c:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\CapaDatos\obj\Debug\CapaDatos.dll
+c:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\CapaDatos\obj\Debug\CapaDatos.pdb

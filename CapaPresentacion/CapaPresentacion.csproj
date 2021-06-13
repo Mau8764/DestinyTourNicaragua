@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9410FA2C-5641-43EB-8CC5-7C00AF7E42A9}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CapaPresentacion</RootNamespace>
+    <AssemblyName>CapaPresentacion</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>D:\Clases\ABD\Design Dashboard Modern\BUNIFU UI\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=12.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="DataSet1.cs">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmBoletoAereo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBoletoAereo.Designer.cs">
+      <DependentUpon>frmBoletoAereo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmClientePersona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmClientePersona.Designer.cs">
+      <DependentUpon>frmClientePersona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPaqueteNacional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPaqueteNacional.Designer.cs">
+      <DependentUpon>frmPaqueteNacional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReservacionPaquete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReservacionPaquete.Designer.cs">
+      <DependentUpon>frmReservacionPaquete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVistaPaqueteNacional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVistaPaqueteNacional.Designer.cs">
+      <DependentUpon>frmVistaPaqueteNacional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Informes\frmFacturaReservacionPaquete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informes\frmFacturaReservacionPaquete.Designer.cs">
+      <DependentUpon>frmFacturaReservacionPaquete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Informes\frmFacturaReservacionTour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informes\frmFacturaReservacionTour.Designer.cs">
+      <DependentUpon>frmFacturaReservacionTour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Informes\frmGenerarInformeDeIngresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informes\frmGenerarInformeDeIngresos.Designer.cs">
+      <DependentUpon>frmGenerarInformeDeIngresos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHoteles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHoteles.Designer.cs">
+      <DependentUpon>frmHoteles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPrincipal.Designer.cs">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRentaVehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRentaVehiculo.Designer.cs">
+      <DependentUpon>frmRentaVehiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSeguroViaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSeguroViaje.Designer.cs">
+      <DependentUpon>frmSeguroViaje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTourNacional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTourNacional.Designer.cs">
+      <DependentUpon>frmTourNacional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVistaClientePersona.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVistaClientePersona.Designer.cs">
+      <DependentUpon>frmVistaClientePersona.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmVistaTourNacional.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmVistaTourNacional.Designer.cs">
+      <DependentUpon>frmVistaTourNacional.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Informes\frmFacturaBoleto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informes\frmFacturaBoleto.Designer.cs">
+      <DependentUpon>frmFacturaBoleto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Informes\frmFacturaHotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informes\frmFacturaHotel.Designer.cs">
+      <DependentUpon>frmFacturaHotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Informes\frmFacturaRentaVehiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informes\frmFacturaRentaVehiculo.Designer.cs">
+      <DependentUpon>frmFacturaRentaVehiculo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Informes\frmFacturaSeguroViaje.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informes\frmFacturaSeguroViaje.Designer.cs">
+      <DependentUpon>frmFacturaSeguroViaje.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Informes\frmInformeDeIngresos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informes\frmInformeDeIngresos.Designer.cs">
+      <DependentUpon>frmInformeDeIngresos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Informes\frmListadoDeClientePorTour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Informes\frmListadoDeClientePorTour.Designer.cs">
+      <DependentUpon>frmListadoDeClientePorTour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Reservacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Reservacion.Designer.cs">
+      <DependentUpon>Reservacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SplashLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SplashLogin.Designer.cs">
+      <DependentUpon>SplashLogin.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CapaLogica\CapaLogica.csproj">
+      <Project>{4363ccf1-bb42-4bb8-a9a0-355067de9293}</Project>
+      <Name>CapaLogica</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmBoletoAereo.resx">
+      <DependentUpon>frmBoletoAereo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmClientePersona.resx">
+      <DependentUpon>frmClientePersona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPaqueteNacional.resx">
+      <DependentUpon>frmPaqueteNacional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReservacionPaquete.resx">
+      <DependentUpon>frmReservacionPaquete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVistaPaqueteNacional.resx">
+      <DependentUpon>frmVistaPaqueteNacional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informes\FacturaReservacionPaqueteNacional.rdlc" />
+    <EmbeddedResource Include="Informes\FacturaReservacionTour.rdlc" />
+    <EmbeddedResource Include="Informes\frmFacturaReservacionPaquete.resx">
+      <DependentUpon>frmFacturaReservacionPaquete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informes\frmFacturaReservacionTour.resx">
+      <DependentUpon>frmFacturaReservacionTour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informes\frmGenerarInformeDeIngresos.resx">
+      <DependentUpon>frmGenerarInformeDeIngresos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHoteles.resx">
+      <DependentUpon>frmHoteles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPrincipal.resx">
+      <DependentUpon>frmPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRentaVehiculo.resx">
+      <DependentUpon>frmRentaVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSeguroViaje.resx">
+      <DependentUpon>frmSeguroViaje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTourNacional.resx">
+      <DependentUpon>frmTourNacional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVistaClientePersona.resx">
+      <DependentUpon>frmVistaClientePersona.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmVistaTourNacional.resx">
+      <DependentUpon>frmVistaTourNacional.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informes\FacturaBoleto.rdlc" />
+    <EmbeddedResource Include="Informes\FacturaSeguroViajes.rdlc" />
+    <EmbeddedResource Include="Informes\frmFacturaBoleto.resx">
+      <DependentUpon>frmFacturaBoleto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informes\frmFacturaHotel.resx">
+      <DependentUpon>frmFacturaHotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informes\frmFacturaRentaVehiculo.resx">
+      <DependentUpon>frmFacturaRentaVehiculo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informes\frmFacturaSeguroViaje.resx">
+      <DependentUpon>frmFacturaSeguroViaje.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informes\frmInformeDeIngresos.resx">
+      <DependentUpon>frmInformeDeIngresos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informes\InformeDeIngresos.rdlc" />
+    <EmbeddedResource Include="Informes\FacturaHotel.rdlc" />
+    <EmbeddedResource Include="Informes\FacturaRentaVehiculo.rdlc" />
+    <EmbeddedResource Include="Informes\frmListadoDeClientePorTour.resx">
+      <DependentUpon>frmListadoDeClientePorTour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Informes\ListadoDeClientesTour.rdlc" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reservacion.resx">
+      <DependentUpon>Reservacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashLogin.resx">
+      <DependentUpon>SplashLogin.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Resources\add_icon-icons.com_52393.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcsconflicting_93497.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_238957732-stock-illustration-green-right-next-icon-buttons.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-siguiente-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-siguiente-481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icontexto-search-01_icon-icons.com_76897.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-siguiente-482.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-siguiente-483.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Destiny.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boleto-aereo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hoteles-nac-int.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paquetes europa-resto del mundo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\renta-vehiculos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seguro-vehiculos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\seguro-viajes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tour-nacional.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\traslado privado-grupal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4014701-avatar-call-mobile-operator-service-support_112884.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users_clients_group_16774.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new_add_user_16734.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\businessapplication_distributor_report_document_negocio_2319.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer_green_10875.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin título.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sin título1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop_close_off_14465.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new-file_40454.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_icon-icons.com_74429.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icontexto-search-01_icon-icons.com_768971.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_icon-icons.com_744291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\businessapplication_distributor_report_document_negocio_23191.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GENERAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\generar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrowreload_flecha_1318.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ss.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ss1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\65748843_2421142971503360_984131656401027072_n %281%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

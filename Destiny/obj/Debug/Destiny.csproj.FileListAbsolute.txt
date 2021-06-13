@@ -1,0 +1,32 @@
+c:\users\mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\CapaPresentacion.dll
+c:\users\mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\CapaLogica.dll
+c:\users\mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\CapaDatos.dll
+c:\users\mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\CapaPresentacion.pdb
+c:\users\mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\CapaLogica.pdb
+c:\users\mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\CapaDatos.pdb
+c:\users\mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\obj\Debug\Destiny.csprojResolveAssemblyReference.cache
+c:\users\mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\obj\Debug\Destiny.Properties.Resources.resources
+c:\users\mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\obj\Debug\Destiny.csproj.GenerateResource.Cache
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\Destiny Tour Nicaragua.exe.config
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\Destiny Tour Nicaragua.exe.manifest
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\Destiny Tour Nicaragua.application
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\Destiny Tour Nicaragua.exe
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\bin\Debug\Destiny Tour Nicaragua.pdb
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\obj\Debug\Destiny Tour Nicaragua.exe.manifest
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\obj\Debug\Destiny Tour Nicaragua.application
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\obj\Debug\Destiny Tour Nicaragua.exe
+C:\Users\Mauricio\documents\visual studio 2015\Projects\Destiny\Destiny\obj\Debug\Destiny Tour Nicaragua.pdb
